@@ -8,10 +8,7 @@
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {
-    "@types/styled-components": "^5.1.1"
-  },
-  "resolutions": {
-    "@types/react-native": "npm:@types/react@*"
-  }
+  "workspaces": [
+    "packages/*"
+  ]
 }

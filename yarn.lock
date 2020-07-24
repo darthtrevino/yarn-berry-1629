@@ -22,7 +22,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-native@npm:@types/react@*, @types/react@npm:*":
+"@types/react-native@npm:*":
+  version: 0.63.2
+  resolution: "@types/react-native@npm:0.63.2"
+  dependencies:
+    "@types/react": "*"
+  checksum: 8c2a28851e8ef19521a089a452343b13f734b359b29c5823b26b1c5641232d67932aa1499c4f40ee83d172ba580264a231e3fe39c4850b2e68131af7f89d1042
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:*":
   version: 16.9.43
   resolution: "@types/react@npm:16.9.43"
   dependencies:
@@ -43,6 +52,14 @@ __metadata:
   checksum: 0195ea769e32c0acbd69e3b05aee129127797ea0fd67690aac4b055ecc26760b978428570b9d07c4934f0dbeab280f29bccd285e2956511bb371f079be73df9d
   languageName: node
   linkType: hard
+
+"a@workspace:packages/a":
+  version: 0.0.0-use.local
+  resolution: "a@workspace:packages/a"
+  dependencies:
+    "@types/styled-components": ^5.1.1
+  languageName: unknown
+  linkType: soft
 
 "csstype@npm:^2.2.0":
   version: 2.6.11
@@ -70,7 +87,5 @@ __metadata:
 "yarn-berry-1629@workspace:.":
   version: 0.0.0-use.local
   resolution: "yarn-berry-1629@workspace:."
-  dependencies:
-    "@types/styled-components": ^5.1.1
   languageName: unknown
   linkType: soft
