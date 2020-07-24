@@ -1,0 +1,17 @@
+{
+  "name": "yarn-berry-1629",
+  "version": "1.0.0",
+  "description": "Reproduction on issue https://github.com/yarnpkg/berry/issues/1629",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/styled-components": "^5.1.1"
+  },
+  "resolutions": {
+    "@types/react-native": "npm:@types/react@*"
+  }
+}
